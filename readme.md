@@ -102,4 +102,4 @@ Timber::render($templates, $context);
 
 11. Within ventraip click manage on the `perth.agency` and find the username and password, enter the username in to the `deploy.yaml` and then in the girhub repo, go to settings > Secrets & Variables > Repository Secret & create a `DEV_FTP_PASS` secret containing the ftps password
 
-12. push the changes to github and monitor the action to see if it built on the server
+12. Push the changes to github and monitor the action to see if it built on the server
